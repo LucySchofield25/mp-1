@@ -77,14 +77,14 @@ main{
      color:#F0F8FF;
  }
 .project-item {
-    margin-bottom: 40px;
-    padding: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
     border-left: 4px ;
     color: #4A90E2;
 }
 
 .project-item h3 {
-    font-size: calc(16px + 1.5vw);
+    font-size: calc(10px + 1.5vw);
     font-weight: bold;
     color: #0A2540;
 }

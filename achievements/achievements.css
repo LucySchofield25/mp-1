@@ -78,8 +78,8 @@ main{
 }
 /*Two column container ends*/
 .award-item {
-    margin-bottom: 40px;
-    padding: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
     border-left: 4px ;
     color: #4A90E2;
 }

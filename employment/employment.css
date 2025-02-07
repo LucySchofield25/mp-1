@@ -74,9 +74,9 @@ main{
     color:#F0F8FF;
 }
 .job-item {
-    margin-bottom: 40px;
-    padding: 15px;
-    border-left: 4px ;
+    margin-bottom: 50px;
+    padding: 5px;
+    border-left: 5px ;
     color: #4A90E2;
 }
 
@@ -95,7 +95,7 @@ main{
     font-size: calc(9px + 0.8vw);
     color: #333;
     display: list-item;
-    padding: 2vh 1vw;
+    padding: 0.5vh 0.5vw;
 }
 footer{
     background-color: #4A90E2;
