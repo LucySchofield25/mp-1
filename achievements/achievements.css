@@ -72,6 +72,7 @@ main{
 #main-title{
     margin: 2vw 0;
     text-align: center;
+    text-decoration: underline;
     font-size: calc(2px + 2vw);
     color:#F0F8FF;
 }

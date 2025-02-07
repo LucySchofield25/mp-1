@@ -2,9 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="description" content="Website for Lucy Schofield's Resume">
+    <link type="text/css" rel="stylesheet" href="projects.css">
+    <title>Projects | Lucy Schofield's Resume</title>
 </head>
 <body>
+    <div id="page-wrapper">
+        <header>
+            <h1>Lucy Schofield</h1>
+            <p>My Online Resume</p>
+        </header>
+        <div id="container">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../education/education.html">Education</a></li>
+                    <li><a href="../employment/employment.html">Employment</a></li>
+                    <li><a href="../achievements/achievements.html">Achievements</a></li>
+                    <li><a href="../projects/projects.html">Projects</a></li>
+                    <li><a href="../skills/skills.html">Skills</a></li>
+                </ul>
+            </nav>
+            <main>
+                <h3 id="main-title">Projects</h3>
+                <section class="project-item">
+                    <h3>CNN Invasive Species Image Classifier</h3>
+                    <p><strong>Boston University</strong></p>
+                    <p>Using a binary classification approach with ReLU activation, max pooling,
+                        dropout, and a sigmoid output layer, the model was trained on large datasets
+                        of native and invasive North American plants, with the goal of automating
+                        detection via cameras, sensors, and drones for early ecosystem intrusion
+                        monitoring.</p>
+                </section>
 
+                <section class="project-item">
+                    <h3>BeerMe</h3>
+                    <p><strong>Boston University</strong></p>
+                    <p>Collaborators: Milo Zurn-Galinsky, Margo Miller</p>
+                    <p>My team members and I created the BeerMe application which allows users to
+                        rate their favorite beers and view all other user ratings. We utilized
+                        google OAuth, mongoDB for data organization, and api calls to a large beer
+                        database. </p>
+                </section>
+
+                <section class="project-item">
+                    <h3>Webex Phishing Bot with Secure XDR Integration</h3>
+                    <p><strong>Cisco Systems</strong></p>
+                    <p>Collaborators: Jay Skrab, Evan Knipp, Emil Engdahl,Anya Akram </p>
+                    <p>This project aimed to address human susceptibility to phishing attacks by
+                        leveraging the Webex bot API in Python to automate phishing simulations via
+                        SMTP. By tracking user interactions with phishing emails and integrating
+                        data into a conceptual XDR dashboard, administrators could analyze
+                        vulnerabilities, monitor success rates, and guide affected users toward
+                        preventative training through automated compliance messaging.</p>
+                </section>
+            </main>
+        </div>
+        <footer>
+            <p>All Rights Reserved by Lucy Schofield <a href="../credits/credits.html"> Credits</a> &copy;</p>
+        </footer>
+    </div>
 </body>
 </html>
